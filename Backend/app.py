@@ -11,7 +11,12 @@ app = FastAPI(title="Telugu Text Classification API")
 # CORS - Allow your frontend to connect
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://telugu-classifier.vercel.app",
+        "https://telugu-classifier-apg8hdn3t-tashaclaris03-7679s-projects.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
