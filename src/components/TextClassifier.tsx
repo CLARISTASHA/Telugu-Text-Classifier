@@ -256,8 +256,8 @@ export default function TextClassifier() {
 
         {/* Model Info */}
         <div className="mt-8 text-center text-sm text-slate-500">
-          <p>Powered by Ensemble ML Model (MuRIL + BiLSTM + LightGBM)</p>
-          <p className="mt-1">Model Accuracy: 96.7%</p>
+          <p>Powered by Ensemble Model </p>
+          <p className="mt-1">Text Classification</p>
         </div>
       </main>
     </div>
