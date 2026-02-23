@@ -68,6 +68,7 @@ export default function TextClassifier() {
       }
       console.error('Classification error:', err);
     } finally {
+      // Ensure loading state is always set to false
       setLoading(false);
     }
   };
